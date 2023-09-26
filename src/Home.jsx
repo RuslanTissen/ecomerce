@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Home.css"
+import "./Product.jsx"
+import Product from './Product.jsx'
 
 function Home() {
 	return (
@@ -11,10 +13,20 @@ function Home() {
 					src='https://images-na.ssl-images-amazon.com/images/G/01/HBS/Services/Storefront2022/Storefront_hero_1500x400._CB1198675309_.png'
 					alt="" />
 
-				<div className="hom__row">
-
+				<div className="home__row">
+					<Product />
+					{/* <Product/> */}
 				</div>
 
+				<div className="home__row">
+					{/* <Product/> */}
+					{/* <Product/> */}
+					{/* <Product/> */}
+				</div>
+
+				<div className="home__row">
+					{/* <Product/> */}
+				</div>
 
 			</div>
 		</div>
