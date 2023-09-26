@@ -29,10 +29,11 @@ function Header() {
 					<span className="header__option--line-one">Your</span>
 					<span className="header__option--line-two">Prime</span>
 				</div>
-			</div>
-			<div className="header__option--basket">
+
+				<div className="header__option--basket">
 				<ShoppingBasketIcon />
 				<span className="header__option--line-two header__basket-count">0</span>
+			</div>
 			</div>
 
 		</div>
