@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Product.css"
+import book from "../src/images/book.png"
 
 function Product() {
 	return (
@@ -10,7 +11,16 @@ function Product() {
 					<small>$</small>
 					<strong>19.99</strong>
 				</p>
+				<div className="product__rating">
+					<p>⭐</p>
+					<p>⭐</p>
+					<p>⭐</p>
+				</div>
 			</div>
+			
+			<img src={book} alt="" />
+
+			<button>Add to Basket</button>
 		</div>
 	)
 }
