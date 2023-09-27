@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import "./Product.jsx"
 import Product from './Product.jsx'
-import living from "../src/images/living.jpg"
+import living from "../src/images/living3.jpg"
 
 function Home() {
 	return (
