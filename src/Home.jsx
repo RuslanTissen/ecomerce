@@ -3,6 +3,7 @@ import "./Home.css"
 import "./Product.jsx"
 import Product from './Product.jsx'
 import living from "../src/images/living3.jpg"
+import book from "../src/images/book.png"
 
 function Home() {
 	return (
@@ -16,18 +17,19 @@ function Home() {
 					alt="" />
 
 				<div className="home__row">
+					<Product id="123564872" title="The Lean startup" price={19.99} image={book} rating={4}/>
+					<Product id="226517899" title="Apple AirPods (2nd Generation) Wireless Earbuds with Lightning Charging Case Included. Over 24 Hours of Battery Life, Effortless Setup. Bluetooth Headphones for iPhonestartup" price={19.99} image={book} rating={5}/>
+
+				</div>
+
+				<div className="home__row">
+					<Product />
 					<Product />
 					<Product />
 				</div>
 
 				<div className="home__row">
-					{/* <Product/> */}
-					{/* <Product/> */}
-					{/* <Product/> */}
-				</div>
-
-				<div className="home__row">
-					{/* <Product/> */}
+					<Product />
 				</div>
 
 			</div>
