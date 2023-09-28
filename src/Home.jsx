@@ -23,7 +23,7 @@ function Home() {
 					alt="" />
 
 				<div className="home__row">
-					<Product id="123564872" title="The Lean startup" price={19.99} image={book} rating={4}/>
+					<Product id="123564872" title="THE CAPITALIST MANIFESTO: UNDERSTADING THE SCIENCE AND ECONOMICS" price={19.99} image={book} rating={4}/>
 					<Product id="226517899" title="Apple AirPods (2nd Generation) Wireless Earbuds with Lightning Charging Case Included. Over 24 Hours of Battery Life, Effortless Setup. Bluetooth Headphones for iPhonestartup" price={909.00} image={airPods} rating={5}/>
 
 				</div>
