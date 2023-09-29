@@ -11,7 +11,7 @@
 
 .checkout__ad{
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	background-image: url(../src/images/banner.jpg);
 	background-repeat: repeat-x;
 	background-size: contain;
@@ -26,4 +26,5 @@
 
 .checkout__right{
 	margin-left: 10px;
+	
 }
