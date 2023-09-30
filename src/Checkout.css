@@ -7,6 +7,7 @@
 
 .checkout__left {
 	width: 100%;
+	/* flex: 1; */
 }
 
 .checkout__ad{
@@ -16,7 +17,7 @@
 	background-repeat: repeat-x;
 	background-size: contain;
 	margin-bottom: 10px;
-	
+
 }
 
 .checkout__title{
@@ -26,5 +27,4 @@
 
 .checkout__right{
 	margin-left: 10px;
-	
 }
