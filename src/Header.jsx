@@ -8,7 +8,7 @@ import Checkout from './Checkout';
 function Header() {
 	return (
 		<div className='header'>
-			<img className='header__logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'></img>
+			<Link to="*"><img className='header__logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'></img></Link>
 
 			<div className='header__search'>
 				<input type="text" className="header__search--input" />
