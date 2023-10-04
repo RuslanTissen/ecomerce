@@ -4,13 +4,15 @@ import book from "../src/images/book.png"
 import { useStateValue } from './StateProvider.jsx'
 
 function Product({ id, title, image, price, rating }) {
-	const [state, dispatch] = useStateValue()
+	const [{ basket }, dispatch] = useStateValue()
+
+	console.log("this is a basket>>>>>", basket)
 
 	const addToBasket = () => {
 		dispatch({
 			type: "ADD_TO_BASKET",
 			item: {
-				id,
+				id: id,
 				title,
 				image,
 				price,
@@ -34,7 +36,9 @@ function Product({ id, title, image, price, rating }) {
 
 			<img src={image} alt="" />
 
-			<button onClick={addToBasket}>Add to Basket</button>
+			<button
+			// onClick={addToBasket}
+			>Add to Basket</button>
 		</div>
 	)
 }
