@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Product.css"
-import book from "../src/images/book.png"
+// import book from "../src/images/book.png"
 import { useStateValue } from './StateProvider.jsx'
 
 function Product({ id, title, image, price, rating }) {
@@ -12,7 +12,7 @@ function Product({ id, title, image, price, rating }) {
 		dispatch({
 			type: "ADD_TO_BASKET",
 			item: {
-				id: id,
+				id,
 				title,
 				image,
 				price,
