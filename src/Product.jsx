@@ -43,5 +43,4 @@ function Product({ id, title, image, price, rating }) {
 	)
 }
 
-
 export default Product
