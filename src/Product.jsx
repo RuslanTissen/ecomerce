@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Product.css"
-// import book from "../src/images/book.png"
 import { useStateValue } from './StateProvider.jsx'
 
 function Product({ id, title, image, price, rating }) {
