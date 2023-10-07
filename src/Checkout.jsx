@@ -9,7 +9,7 @@ function Checkout() {
 		<div className='checkout'>
 			<div className="checkout__left">
 				<Link to="*">
-					<div className="checkout__ad">{/* <img src={banner} alt="" className="checkout__add" /> */}</div>
+					<div className="checkout__ad"> </div>
 				</Link>
 				<div>
 					<h2 className="checkout__title">	Your shopping basket	</h2>
