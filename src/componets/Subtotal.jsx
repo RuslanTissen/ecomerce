@@ -12,14 +12,14 @@ function Subtotal(price) {
 				renderText={(value) => (
 					<>
 						<p>
-							Subtotal ({basket.length} items): <strong>$ ?</strong>
+							Subtotal ({basket.length} items): <strong>$ {basket[0].price}</strong>
 						</p>
 						<small className='subtotal__gift'>
 							<input type='checkbox' /> This order contain a gift
 						</small>
 					</>
 				)}
-				// decimalScale={2}
+				decimalScale={2}
 				value={0}
 				displayType={"text"}
 				thousandSeparator={true}
