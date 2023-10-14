@@ -40,7 +40,6 @@ function Product({ id, title, image, price, rating }) {
 			>Add to Basket</button>
 		</div>
 	)
-	
 }
 
 export default Product
