@@ -12,7 +12,14 @@ function Checkout() {
 					<div className="checkout__ad"> </div>
 				</Link>
 				<div>
-					<h2 className="checkout__title">	Your shopping basket	</h2>
+					<h2 className="checkout__title">	Your shopping basket
+					</h2>
+
+					{/* CheckutRpoduct */}
+					{/* CheckutRpoduct */}
+					{/* CheckutRpoduct */}
+					{/* CheckutRpoduct */}
+					{/* CheckutRpoduct */}
 				</div>
 			</div>
 
