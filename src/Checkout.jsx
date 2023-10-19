@@ -3,6 +3,7 @@ import "./Checkout.css"
 import banner from "../src/images/banner.jpg"
 import { Link } from 'react-router-dom'
 import Subtotal from "./componets/Subtotal.jsx"
+import CheckoutProduct from "./CheckoutProduct.jsx"
 
 function Checkout() {
 	return (
@@ -15,11 +16,11 @@ function Checkout() {
 					<h2 className="checkout__title">	Your shopping basket
 					</h2>
 
-					{/* CheckutRpoduct */}
-					{/* CheckutRpoduct */}
-					{/* CheckutRpoduct */}
-					{/* CheckutRpoduct */}
-					{/* CheckutRpoduct */}
+					{/* CheckoutProduct */}
+					{/* CheckoutProduct */}
+					{/* CheckoutProduct */}
+					{/* CheckoutProduct */}
+					{/* CheckoutProduct */}
 				</div>
 			</div>
 
