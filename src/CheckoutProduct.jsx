@@ -12,6 +12,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
 					<small>$</small>
 					<strong>{price}</strong>
 				</p>
+				
 			</div>
 
 		</div>
