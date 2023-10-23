@@ -6,6 +6,8 @@ import Subtotal from "./componets/Subtotal.jsx"
 import CheckoutProduct from "./CheckoutProduct.jsx"
 
 function Checkout() {
+
+	
 	return (
 		<div className='checkout'>
 			<div className="checkout__left">
